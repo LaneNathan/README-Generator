@@ -9,56 +9,55 @@ const questions = [
   
     {
         type: 'input',
-        name: '',
+        name: 'repo title',
         message: 'What is your repository name?',
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Write a short description of your project.',
+    },
+    {
+        type: 'input',
+        name: 'installation instructions',
+        message: 'What is the installation process for your project?',
 
     },
     {
         type: 'input',
-        name: '',
-        message: '',
+        name: 'usage information',
+        message: 'Any information you can provide about the usage of the project?',
+
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Which license should your project have?',
+        choices: ['MIT','APACHE 2.0','BSL 1.0','CC','None']
 
     },
     {
         type: 'input',
-        name: '',
-        message: '',
+        name: 'contribution guidleines',
+        message: 'What would you like the user to know about contributing to your repo?',
 
     },
     {
         type: 'input',
-        name: '',
-        message: '',
+        name: 'test',
+        message: 'How should the user run a test in the command line?',
 
     },
     {
         type: 'input',
-        name: '',
-        message: '',
+        name: 'questions',
+        message: 'What is your GitHub username?',
 
     },
     {
         type: 'input',
-        name: '',
-        message: '',
-
-    },
-    {
-        type: 'input',
-        name: '',
-        message: '',
-
-    },
-    {
-        type: 'input',
-        name: '',
-        message: '',
-
-    },
-    {
-        type: 'input',
-        name: '',
-        message: '',
+        name: 'questions',
+        message: 'What is your email address?',
 
     },
     
