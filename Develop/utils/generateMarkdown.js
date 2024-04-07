@@ -30,6 +30,32 @@ return '';
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+${LicenseBadge(data.license)}
+##Description
+
+${data.description}
+#Table of contents
+
+*[Insatllataion](#installation)
+
+*[Usage](#usage)
+${LicenseLink(data.license)}
+*[Contributing](#contibuting)
+
+*[Test](#test)
+
+To run tests, run this command:
+
+\`\`\`
+${data.test}
+\`\`\`
+
+#Questions
+
+If you have any questions about the repo, contact me at ${data.email}
+
+Find more of my projects at [${data.github}](https://github.com/${data.github}/).
+
 
 `;
 }
