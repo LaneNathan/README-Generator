@@ -14,7 +14,7 @@ function LicenseLink(license) {
   }
 
 
-//  Create a function that returns the license section of README,If there is no license, return an empty string
+//function that returns the license section of README,If there is no license, return an empty string
 function LicenseSection(license) {
   if(license !== 'None') {
   return  `## License
@@ -28,15 +28,19 @@ return '';
 function generateMarkdown(data) {
   return `# ${data.title}
 ${LicenseBadge(data.license)}
+
 ##Description
 
 ${data.description}
+
 #Table of contents
 
 *[Insatllataion](#installation)
 
 *[Usage](#usage)
+
 ${LicenseLink(data.license)}
+
 *[Contributing](#contibuting)
 
 *[Test](#test)
