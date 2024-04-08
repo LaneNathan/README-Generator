@@ -36,10 +36,32 @@ ${data.description}
 *[Insatllataion](#installation)
 
 *[Usage](#usage)
-${LicenseSection(data.license)}
+${LicenseLink(data.license)}
 *[Contributing](#contibuting)
 
 *[Test](#test)
+
+*[Questions](#questions)
+
+#Installation
+
+To install dependencies, follow these commands:
+
+\`\`\`
+${data.installation}
+\`\`\`
+
+#Usage
+
+${data.usage}
+
+${LicenseSection(data.license)}
+
+#Contributing
+
+${data.contibuting}
+
+#Testing
 
 To run tests, run this command:
 
