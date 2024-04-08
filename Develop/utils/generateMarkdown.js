@@ -37,7 +37,7 @@ ${data.description}
 
 *[Insatllataion](#installation)
 
-*[Usage](#usage)
+*[Usage](#Usage)
 
 ${LicenseLink(data.license)}
 
