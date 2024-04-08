@@ -48,7 +48,7 @@ ${data.test}
 
 #Questions
 
-If you have any questions about the repo, contact me at ${data.email}
+If you have any questions about the repo, contact me at ${data.email}.
 
 Find more of my projects at [${data.github}](https://github.com/${data.github}/).
 
