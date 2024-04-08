@@ -9,7 +9,7 @@ const questions = [
   
     {
         type: 'input',
-        name: 'repo title',
+        name: 'title',
         message: 'What is your repository name?',
     },
     {
@@ -19,14 +19,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'installation instructions',
+        name: 'installation',
         message: 'What is the installation process for your project?',
         default: 'npm i',
 
     },
     {
         type: 'input',
-        name: 'usage information',
+        name: 'usage',
         message: 'Any information you can provide about the usage of the project?',
 
     },
@@ -39,7 +39,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contribution guidleines',
+        name: 'contributing',
         message: 'What would you like the user to know about contributing to your repo?',
 
     },
@@ -52,13 +52,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
+        name: 'github',
         message: 'What is your GitHub username?',
 
     },
     {
         type: 'input',
-        name: 'questions',
+        name: 'email',
         message: 'What is your email address?',
 
     },
