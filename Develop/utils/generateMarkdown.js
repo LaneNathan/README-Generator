@@ -15,7 +15,8 @@ function LicenseLink(license) {
 
 
 //  Create a function that returns the license section of README,If there is no license, return an empty string
-function LicenseSection(license) {if(license !== 'None') {
+function LicenseSection(license) {
+  if(license !== 'None') {
   return  `## License
 
   This project is licensed by ${license}.`;
@@ -35,7 +36,7 @@ ${data.description}
 *[Insatllataion](#installation)
 
 *[Usage](#usage)
-${LicenseLink(data.license)}
+${LicenseSection(data.license)}
 *[Contributing](#contibuting)
 
 *[Test](#test)

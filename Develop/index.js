@@ -21,6 +21,7 @@ const questions = [
         type: 'input',
         name: 'installation instructions',
         message: 'What is the installation process for your project?',
+        default: 'npm i',
 
     },
     {
@@ -46,6 +47,7 @@ const questions = [
         type: 'input',
         name: 'test',
         message: 'How should the user run a test in the command line?',
+        default: 'npm test',
 
     },
     {
