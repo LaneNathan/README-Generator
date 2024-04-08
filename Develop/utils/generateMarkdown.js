@@ -63,7 +63,7 @@ ${LicenseSection(data.license)}
 
 #Contributing
 
-${data.contibuting}
+${data.contributing}
 
 #Testing
 
