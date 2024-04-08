@@ -1,25 +1,25 @@
 # README Generator
 ![Static Badge](https://img.shields.io/badge/license-MIT-green.svg)
 
-##Description
+## Description
 
 application to create a README file
 
 
-#Photo
+## Photo
 
 (![alt text](<./Develop/image.png>))
 
 
-#application video
+## Application video
 
 (https://drive.google.com/file/d/14Oqzu8ZavdkkME8nlvjGoZA84Z53qOfi/view)
 
-#Github Link
+## Github Link
 
 (https://github.com/LaneNathan/README-Generator)
 
-#Table of contents
+## Table of contents
 
 *[Insatllataion](#installation)
 
@@ -35,7 +35,7 @@ application to create a README file
 
 *[Questions](#questions)
 
-#Installation
+## Installation
 
 To install dependencies, follow these commands:
 
@@ -43,7 +43,7 @@ To install dependencies, follow these commands:
 npm i
 ```
 
-#Usage
+## Usage
 
 to be used to create a README file within vs code.
 
@@ -51,11 +51,11 @@ to be used to create a README file within vs code.
 
   This project is licensed by MIT.
 
-#Contributing
+## Contributing
 
 COntact me at the email below or open an issue
 
-#Testing
+## Testing
 
 To run tests, run this command:
 
@@ -63,7 +63,7 @@ To run tests, run this command:
 npm test
 ```
 
-#Questions
+## Questions
 
 If you have any questions about the repo, contact me at Lanenathan214@gmail.com.
 
