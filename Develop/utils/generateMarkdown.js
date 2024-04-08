@@ -29,11 +29,11 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ${LicenseBadge(data.license)}
 
-##Description
+## Description
 
 ${data.description}
 
-#Table of contents
+## Table of contents
 
 *[Insatllataion](#installation)
 
@@ -47,7 +47,7 @@ ${LicenseLink(data.license)}
 
 *[Questions](#questions)
 
-#Installation
+## Installation
 
 To install dependencies, follow these commands:
 
@@ -55,17 +55,17 @@ To install dependencies, follow these commands:
 ${data.installation}
 \`\`\`
 
-#Usage
+## Usage
 
 ${data.usage}
 
 ${LicenseSection(data.license)}
 
-#Contributing
+## Contributing
 
 ${data.contributing}
 
-#Testing
+## Testing
 
 To run tests, run this command:
 
@@ -73,7 +73,7 @@ To run tests, run this command:
 ${data.test}
 \`\`\`
 
-#Questions
+## Questions
 
 If you have any questions about the repo, contact me at ${data.email}.
 
